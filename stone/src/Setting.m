@@ -85,7 +85,7 @@
 - (int)countCommandHistory
 {
     NSArray *history = [userDefaults arrayForKey:KEY_HISTORY];
-    return [history count];
+    return (int)[history count];
 }
 
 - (NSArray*)getCommandHistory

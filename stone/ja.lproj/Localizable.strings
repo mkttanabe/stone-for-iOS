@@ -1,0 +1,56 @@
+
+"Usage" = "** 'stone for iOS' について **\n
+stone for iOS は、多機能パケットリピータ 'stone' を iOS 上で利用するための GUI アプリケーションです. 画面最上部のコマンドフィールドに stone パラメータを記述します. 記述方法は [ツールメニュー - README] を参照して下さい.\n
+[Run] - stone の処理を開始します
+[Stop] - 本アプリケーションを終了します
+[Clear] - 表示中のログを消去します
+[History] - パラメータ履歴を表示します
+ツールボタン - ツールメニューを表示します\n
+** サンプルパラメータの試しかた **\n
+\"-dd www.gcd.org:80 1234\"
+初期状態で表示されているパラメータは stone の効果を確認するためのサンプルです. [Run] で stone の処理を開始し、ブラウザから http://[この端末の IP アドレス]:1234/ へアクセスすると http://www.gcd.org/ （stone 公式サイト）へ繋がります. お試し下さい.\n\n";
+
+"QueryExit" = "このアプリケーションを終了します。\nよろしいですか？";
+"QueryClearLog" = "表示中のログをクリアしますか？";
+
+"DeleteFile" = "ファイルの削除";
+"QueryDeleteFile" = "このファイルを削除します。よろしいですか？";
+"RenameFile" = "ファイル名の変更";
+"EnterNewFileName" = "新しいファイル名を入力して OK を押して下さい";
+"FileDeleteError" = "ファイルを削除できませんでした";
+"SpecifyFileName" = "ファイル名を指定して下さい";
+"NotUniqueFileName" = "同じ名前のファイルが存在します";
+"FileRenameError" = "ファイル名を変更できませんでした";
+
+"SaveAsLocalFile" = "指定されたファイルは次の名前で 'stone for iOS' の固有領域へ保存されます";
+"QueryOverwriteFile" = "同名のファイルがすでに存在します。上書きしますか？";
+"SaveFileError" = "保存中にエラーが発生しました。別のファイル名をお試し下さい";
+"SaveCompleted" = "保存しました";
+
+"NoLocalFiles" = "現在本アプリのローカル領域へ保存ずみのファイルはありません。\".stone\" の拡張子が付与された所定のファイルをメーラ等のアプリケーション上でタップすると、そのファイルを本アプリのローカルファイルとしてコピーすることができます。保存ずみのローカルファイルは stone パラメータへの指定が可能です。\n（例）\"-C stone.cnf\"";
+
+"TapToActivateStone" = "タップすると stone for iOS が再びアクティブになります";
+"Open" = "開く";
+
+"YES" ="はい";
+"NO" = "いいえ";
+
+"OK" = "OK";
+"Cancel" = "キャンセル";
+
+"ON" = "オン";
+"OFF" = "オフ";
+
+"Operation" = "操作";
+"OperationDone" = "操作終了";
+
+"Edit" = "編集";
+"EditDone" = "編集終了";
+
+"DescriptionHtml" = "Description";
+"StoneReameHtml" = "readme";
+
+"GPLFile" = "GPL";
+"NOTICE" = "NOTICE";
+
+"OpenSSLLicenseFile" = "OpenSSL_LICENSE";

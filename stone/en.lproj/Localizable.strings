@@ -1,0 +1,56 @@
+
+"Usage" = "** about 'stone for iOS' **\n
+stone for iOS is a GUI application to execute the open source multi-functional packet repeater 'stone'. Specify stone parameters on the text field above. See [Tools Menu - README] for syntax details.\n
+[Run] - Execute stone
+[Stop] - Close this application
+[Clear] - Clear log messages
+[History] - Display command history
+Tools Button - Display Tools Menu\n
+** How to use sample parameter **\n
+\"-dd www.gcd.org:80 1234\"
+The default parameter above is an example for testing. Please open http://[IP Address of this device]:1234/ in a web browser after you execute stone. The browser will show contents of http://www.gcd.org/ (stone official site).\n\n";
+
+"QueryExit" = "Do you really want to exit this application?";
+"QueryClearLog" = "Clear log message?";
+
+"DeleteFile" = "Delete a file";
+"QueryDeleteFile" = "Do you really want to delete this file?";
+"RenameFile" = "Rename a file";
+"EnterNewFileName" = "Please enter the new name and push OK button.";
+"FileDeleteError" = "Failed to delete the file.";
+"SpecifyFileName" = "Please specify the file name.";
+"NotUniqueFileName" = "The file name is already in use.";
+"FileRenameError" = "Failed to rename the file.";
+
+"SaveAsLocalFile" = "The file will be saved to the local folder of 'stone for iOS'. Please specify the save file name.";
+"QueryOverwriteFile" = "The file name is already in use. Overwrite it?";
+"SaveFileError" = "Failed to save the file. Please retry with another name.";
+"SaveCompleted" = "The file has been saved.";
+
+"NoLocalFiles" = "There are no files in the local folder of this app. You can copy files to there by tapping the file named \"*.stone\" on the other applications, such as Mailer. The local files can be specified in the stone parameter.\n e.g. \"-C stone.cnf\"";
+
+"TapToActivateStone" = "Tap to activate 'stone for iOS'";
+"Open" = "Open";
+
+"YES" ="Yes";
+"NO" = "No";
+
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+"ON" = "ON";
+"OFF" = "OFF";
+
+"Operation" = "Edit";
+"OperationDone" = "Done";
+
+"Edit" = "Edit";
+"EditDone" = "Done";
+
+"DescriptionHtml" = "Description_en";
+"StoneReameHtml" = "readme_en";
+
+"GPLFile" = "GPL";
+"NOTICE" = "NOTICE";
+
+"OpenSSLLicenseFile" = "OpenSSL_LICENSE";

@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" id="iphone-viewport" content="initial-scale=0.7, minimum-scale=1.0, maximum-scale=3.0, width=device-width>
+<title>説明</title>
+</head>
+<body bgcolor="#ffffff">
+<br><br><br>
+<blockquote>
+<h2>説明</h2>
+
+<p>
+「stone for iOS」は、仙石浩明 (Hiroaki Sengoku) 氏によるオープンソースの多機能パケットリピータソフトウェア「<a href="http://www.gcd.org/sengoku/stone/Welcome.ja.html">stone</a>」を iOS 上で利用するための GUI アプリケーションです。
+
+<hr size=0>
+
+<p>
+(1) メイン画面
+<br>
+<img src="01.png">
+<p>
+画面最上部のコマンドフィールドに stone パラメータを記述します。パラメータの記述方法は [ツールメニュー - README] を参照して下さい。
+<p>
+各ボタンの機能
+<ul>
+<li>[Run] - stone の処理を開始します
+<li>[Stop] - 本アプリケーションを終了します
+<li>[Clear] - 表示中のログを消去します
+<li>[History] - コマンド履歴を表示します
+<li>ツールボタン - ツールメニューを表示します
+</ul>
+
+<p>
+"-dd www.gcd.org:80 1234"
+<br>
+初期状態でコマンドフィールドに表示されている上記のパラメータは stone の効果を確認するためのサンプルです。[Run] で stone の処理を開始し、ブラウザから http://[この端末の IP アドレス]:1234/ へアクセスすると http://www.gcd.org/ （stone 公式サイト）へ繋がります。
+
+
+<p>
+(2) コマンド履歴画面
+<br>
+<img src="02ja.png">
+<p>
+stone で実行したコマンドパラメータの履歴です。タップするとメイン画面のコマンドフィールドへペーストされます。「編集」ボタンからエントリの削除・並べ替えができます。
+
+
+<p>
+(3) ツールメニュー
+<br>
+<img src="03ja.png">
+<p>
+各種設定やヘルプを表示します。詳細は各画面をご覧下さい。
+
+
+<p>
+(4) ローカルファイルの保存
+<p>
+".stone" の拡張子が付与された任意のファイルをメーラ等のアプリケーション上でタップすると、そのファイルを本アプリケーションのローカルファイルとしてコピーすることができます。保存ずみのローカルファイルは stone パラメータへの指定が可能です。
+<br>
+（例）"-C stone.cnf"
+<p>
+<img src="04ja.png">
+<p>
+※現バージョンの stone for iOS は、iOS キーチェーンへの<b>電子証明書のインポートおよび参照には未対応</b>です。証明書はローカルファイルとして保存した上で使用して下さい。
+<hr size=0>
+
+<p>
+本ソフトウェアは以下のオープンソースソフトウェア資産を使用しています。
+素晴らしいソフトウェアを公開されている各氏に深謝いたします。
+
+<p>
+<h2>stone</h2>
+<blockquote>
+Copyright (c) 1995-2014 by Hiroaki Sengoku
+<br>
+<br>
+「この stone に関する全ての著作権は、原著作者である仙石浩明が所有します。この stone は、GNU General Public License (GPL) に準ずるフリーソフトウェアです。個人的に使用する場合は、改変・複製に制限はありません。配布する場合は GPL に従って下さい。また、openssl とリンクして使用することを許可します。」
+<br>
+「この stone は無保証です。この stone を使って生じたいかなる損害に対しても、原著作者は責任を負いません。詳しくは GPL を参照して下さい。」
+<ul>
+<li><a href="http://www.gcd.org/sengoku/stone/Welcome.ja.html">stone 公式サイト - www.gcd.org</a>
+<li><a href="http://sourceforge.jp/cvs/view/stone/stone/README.txt?view=markup">stone README 原文 - sourceforge.jp</a>
+<li><a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html">GPL version 2 - www.gnu.org</a>
+</ul>
+
+</blockquote>
+
+<p>
+<h2>OpenSSL</h2>
+<blockquote>
+Copyright (c) 1998-2011 The OpenSSL Project.  All rights reserved.
+<br>
+<br>
+"This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+<br>
+"THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+<br>
+"This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). This product includes software written by Tim Hudson (tjh@cryptsoft.com)."
+<ul>
+<li><a href="https://www.openssl.org/">OpenSSL 公式サイト - www.openssl.org</a>
+<li><a href="http://www.openssl.org/source/license.html">OpenSSL ライセンス - www.openssl.org</a>
+<li><a href="https://github.com/x2on/OpenSSL-for-iPhone">OpenSSL-for-iOS by Felix Schulze - github.com</a>
+</ul>
+</blockquote>
+
+
+<hr size=0>
+<p>
+「stone for iOS」はオープンソースソフトウェアです。本ソフトウェアのソースコードは https://github.com/mkttanabe/stone-for-iOS で公開しています。「stone for iOS」は GPL に基づいてライセンスされます。
+
+<p>
+Copyright (C) 2014 KLab Inc.
+<br>
+written by TANABE Makoto &lt;mkttanabe2012@gmail.com&gt;
+
+</blockquote>
+</body>
+</html>

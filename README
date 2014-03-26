@@ -1,0 +1,41 @@
+'stone for iOS' is a GUI application to execute the open source multi-functional packet repeater 'ston' developed by Hiroaki Sengoku.
+This software uses existing Open Source Software resources below. We are so grateful to every person who has published these great software.
+
+「stone for iOS」は、仙石浩明 (Hiroaki Sengoku) 氏によるオープンソースの多機能パケットリピータソフトウェア「stone」を iOS 上で実行するための GUI アプリケーションです。
+本ソフトウェアは以下のオープンソースソフトウェア資産を使用しています。素晴らしいソフトウェアを公開されている各氏に深謝いたします。
+
+
+                           stone
+
+Copyright (c) 1995-2014 by Hiroaki Sengoku
+
+"All rights about this program ``stone'' are reserved by the original author, Hiroaki Sengoku. The program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License (GPL). Furthermore you can link it with openssl."
+"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY."
+
+http://www.gcd.org/sengoku/stone/Welcome.html
+
+「この stone に関する全ての著作権は、原著作者である仙石浩明が所有します。この stone は、GNU General Public License (GPL) に準ずるフリーソフトウェアです。個人的に使用する場合は、改変・複製に制限はありません。配布する場合は GPL に従って下さい。また、openssl とリンクして使用することを許可します。」
+「この stone は無保証です。この stone を使って生じたいかなる損害に対しても、原著作者は責任を負いません。詳しくは GPL を参照して下さい。」
+
+http://www.gcd.org/sengoku/stone/Welcome.ja.html
+
+
+                          OpenSSL
+
+Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved.
+
+"This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+"THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+"This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). This product includes software written by Tim Hudson (tjh@cryptsoft.com)."
+
+https://www.openssl.org/
+
+
+-----------------------------------------------------------
+
+* Cryptographic Software Notice *
+
+This software includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software. BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted. See http://www.wassenaar.org/ for more information.
+
+The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software using or performing cryptographic functions with asymmetric algorithms. The form and manner of this software distribution makes it eligible for export under the License Exception ENC Technology Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for both object code and source code.
+

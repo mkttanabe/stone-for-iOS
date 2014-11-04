@@ -671,7 +671,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "B6A21DD5-0D5B-4903-A405-CDB5509E8D56";
+				PROVISIONING_PROFILE = "d1df0990-e58d-4ed0-a6a1-94186fe607b7";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -710,7 +710,7 @@
 					"$(SRCROOT)/stone/OpenSSL/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "B6A21DD5-0D5B-4903-A405-CDB5509E8D56";
+				PROVISIONING_PROFILE = "d1df0990-e58d-4ed0-a6a1-94186fe607b7";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -721,8 +721,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Makoto TANABE (R82ARJ8QSD)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Makoto TANABE (NC2QPYFE9K)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Makoto TANABE (NC2QPYFE9K)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "stone/stone-Prefix.pch";
@@ -743,7 +743,7 @@
 					stone/OpenSSL/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B6A21DD5-0D5B-4903-A405-CDB5509E8D56";
+				PROVISIONING_PROFILE = "d1df0990-e58d-4ed0-a6a1-94186fe607b7";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -754,8 +754,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Makoto TANABE (NC2QPYFE9K)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Makoto TANABE (NC2QPYFE9K)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Makoto TANABE (R82ARJ8QSD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Makoto TANABE (R82ARJ8QSD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "stone/stone-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -774,7 +774,7 @@
 					stone/OpenSSL/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B6A21DD5-0D5B-4903-A405-CDB5509E8D56";
+				PROVISIONING_PROFILE = "d1df0990-e58d-4ed0-a6a1-94186fe607b7";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
